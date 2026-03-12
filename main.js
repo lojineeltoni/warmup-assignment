@@ -319,7 +319,7 @@ function countBonusPerMonth(textFile, driverID, month) {
 
     return count;
 }
-
+// improved handling of monthly driver hours calculation
 function getTotalActiveHoursPerMonth(textFile, driverID, month) {
 
     const fs = require("fs");
