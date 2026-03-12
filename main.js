@@ -128,7 +128,7 @@ function getIdleTime(startTime, endTime) {
 // Returns: string formatted as h:mm:ss
 // ============================================================
 function getActiveTime(shiftDuration, idleTime) {
-
+// refined total active hours calculation
     function toSeconds(time) {
         let parts = time.split(":");
         let hours = Number(parts[0]);
